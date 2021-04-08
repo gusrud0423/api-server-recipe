@@ -23,3 +23,10 @@ class Config :
     
     # 셋한다음에는 flask run 으로 실행해야 5003 으로 되고 아니면
   # app.py에 제일마지막 app.run(port=5003)으로 바꾸고 python app.py 해야지 5003으로 바뀐다.
+    
+    # JWT 용 시크릿 키
+    SECRET_KEY = 'yuhyunkyoung_04_23'
+
+  #### user 추가하고 나서
+  # 비밀번호 암호화를 위한 salt 설정 => 해킹 방지를 위해서 
+salt ="hello_test"
